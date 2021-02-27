@@ -10,7 +10,6 @@ export const assetSchema = new Schema({
     description: String,
     model: String,
     healthScore: Number,
-    maintainer: String,
     status: {type: String, enum:AssetStatus},
     unitId: {type: Types.ObjectId, ref: 'Unit'},
     userId: {type: Types.ObjectId, ref: 'User'}
