@@ -2,3 +2,5 @@ node_modules
 public/images/*
 .DS_Store
 .env*
+build
+ssl/*
