@@ -3,6 +3,8 @@ import db from './database/db';
 import express from 'express';
 import routes from './routes/routes';
 import cors from 'cors'
+import https from 'https'
+import fs from 'fs'
 // import delay from 'express-delay';
 
 db()
@@ -17,7 +19,10 @@ app.use(express.static('public'))
 
 const PORT = process.env.PORT  || 4000
 
-app.listen(PORT, () => {
-    console.log('Server is running');
-  });
-
+https.createServer({
+  key: fs.readFileSync('ssl/server.key'),
+  cert: fs.readFileSync('ssl/server.cert')
+}, app)
+.listen(PORT, function () {
+  console.log('Server runnin on port' + PORT)
+})
