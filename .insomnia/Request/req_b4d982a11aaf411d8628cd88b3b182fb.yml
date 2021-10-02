@@ -1,0 +1,21 @@
+_id: req_b4d982a11aaf411d8628cd88b3b182fb
+type: Request
+parentId: fld_aa55634045f8488bb7cd4fed2c3cd9ec
+modified: 1633185521666
+created: 1633185507957
+url: google.com.br
+name: get google
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1633185508012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
