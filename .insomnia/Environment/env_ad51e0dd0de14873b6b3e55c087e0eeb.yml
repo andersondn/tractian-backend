@@ -1,0 +1,14 @@
+_id: env_ad51e0dd0de14873b6b3e55c087e0eeb
+type: Environment
+parentId: env_80ad1e9ccb0d76fd17037e2c8d7c50b134d90723
+modified: 1633185618011
+created: 1633185603149
+name: dev
+data:
+  base: 1234
+dataPropertyOrder:
+  "&":
+    - base
+color: null
+isPrivate: false
+metaSortKey: 1633185603149
